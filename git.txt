@@ -8,4 +8,11 @@
 3. 创建SSH key
    ssh-keygen -t rsa -C "2586346485@qq.com"
 
+4. Copy SSH Key
+   用cat查看id_rsa.pub文件内的内容，粘帖到github帐号管理的添加SSH key界面中。
+   cat ~/.ssh/id_rsa.pub
+
+5. 测试
+   ssh -T git@github.com
+
 
