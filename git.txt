@@ -1,0 +1,11 @@
+1. 查看版本 
+   git --version
+
+2. 设置用户名和email
+   git config --global user.name "GallenChuang"
+   git config --global user.email "2586346485@qq.com"
+
+3. 创建SSH key
+   ssh-keygen -t rsa -C "2586346485@qq.com"
+
+
